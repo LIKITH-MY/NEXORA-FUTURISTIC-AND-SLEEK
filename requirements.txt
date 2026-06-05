@@ -1,0 +1,10 @@
+streamlit
+openai
+requests
+pillow
+beautifulsoup4
+python-pptx
+PyPDF2
+pyttsx3
+SpeechRecognition
+pygame
