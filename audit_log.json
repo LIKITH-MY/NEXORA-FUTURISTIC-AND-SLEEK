@@ -1,1 +1,8 @@
-[]
+[[
+  {
+    "timestamp": "2026-06-05 15:30:22",
+    "action": "chat",
+    "query": "What is Artificial Intelligence?",
+    "response": "Artificial Intelligence is a branch of computer science..."
+  }
+]
