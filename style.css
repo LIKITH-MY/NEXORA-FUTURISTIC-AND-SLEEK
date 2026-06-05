@@ -1,1 +1,122 @@
-/* Move your Streamlit CSS here */
+
+st.markdown("""
+<style>
+
+.main {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    color: #1f2937;
+    font-weight: 700;
+}
+
+.chat-bubble {
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.user-bubble {
+    background: #2563eb;
+    color: white;
+    text-align: right;
+}
+
+.ai-bubble {
+    background: #ffffff;
+    color: #111827;
+    border-left: 5px solid #10b981;
+}
+
+.response-container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.template-card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 12px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.template-card:hover {
+    transform: translateY(-3px);
+}
+
+.template-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.template-desc {
+    color: #6b7280;
+    margin-top: 8px;
+}
+
+.video-card {
+    background: white;
+    padding: 18px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.08);
+}
+
+.video-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ef4444;
+}
+
+.video-channel {
+    color: #374151;
+    margin-top: 5px;
+}
+
+.video-stats {
+    color: #6b7280;
+    margin-top: 5px;
+}
+
+.video-link {
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.audit-entry {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    border-left: 5px solid #8b5cf6;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.08);
+}
+
+.audit-timestamp {
+    color: #8b5cf6;
+    font-weight: bold;
+}
+
+.stButton button {
+    width: 100%;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+</style>
+""", unsafe_allow_html=True)
