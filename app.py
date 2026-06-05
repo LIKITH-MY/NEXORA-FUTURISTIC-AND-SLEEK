@@ -371,8 +371,8 @@ st.markdown("""
 -------------------------
 API KEYS
 -------------------------
-OPENAI_API_KEY = "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"
-WEATHER_API_KEY = "a2643bb901d83b1cbb9e7de2b47cefaa"
+OPENAI_API_KEY = ""
+WEATHER_API_KEY = ""
 
 Initialize OpenAI client with new API
 if OpenAI is not None:
